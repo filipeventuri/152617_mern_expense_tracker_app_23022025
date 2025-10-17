@@ -56,7 +56,7 @@ const SideMenu = ({ activeMenu }) => {
           onClick={() => handleClick(item.path)}
         >
           <item.icon className="text-xl" />
-          {item.label}
+          {item.name}
         </button>
       ))}
     </div>
